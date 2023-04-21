@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB5FAA9C-EE13-85E9-5B54-25854B65C901" name="detalle">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 02:25:43 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idDetalle" id="015787FD-23DF-DCF2-AEC4-5FB13D7A7EE3">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 02:26:53 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="noFactura" id="42BCF9B5-AA83-37B9-16E2-8BFFF7A44E46">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 03:35:39 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="159F8974-AE95-2D81-E2FD-9773F6812C04" referredColumn="E49A490D-B420-1D71-1266-22C8DD84D214"/>
+</associations>
+</Column>
+<Column name="cantidad" id="527FC2E4-1EE4-2D32-A36F-69A000A4947C">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 02:28:12 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,6,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subtotal" id="CD42811E-0839-B305-DBC5-219A89FA01A1">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 02:29:10 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,6,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="producto_idProducto" id="92C457F4-E311-2A96-91E6-202BC6AAC084">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 03:36:57 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADFB1FFD-EFEE-4605-961D-E957524BDC0E" referredColumn="AB9DD97E-0EF6-1C38-69C3-2913633A6DA3"/>
+</associations>
+</Column>
+<Column name="descuento_idDescuento" id="CC96649F-1526-7B09-54C0-08B66B822021">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 03:38:14 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65AE3E61-5463-7165-C756-7B7666A56D2D" referredColumn="3BE05890-55C4-E4F4-58C9-FA4EB73134AA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A787D0C-79CF-C1C6-3B70-F6CE3E1C9517" name="detalle_PK">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 02:26:53 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="015787FD-23DF-DCF2-AEC4-5FB13D7A7EE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE8B9243-9382-06A5-F721-2DE9BFF49CD3" name="detalle_factura">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 03:35:39 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42BCF9B5-AA83-37B9-16E2-8BFFF7A44E46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7354F2A4-5CB4-D3B9-541D-8F5D78661B29" name="detalle_producto">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 03:36:57 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92C457F4-E311-2A96-91E6-202BC6AAC084"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9CA0DFE-AB4C-67FA-6D81-A687E3BE54E0" name="detalle_descuento">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 03:38:14 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC96649F-1526-7B09-54C0-08B66B822021"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

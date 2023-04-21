@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FFDDC8AE-BCD9-4490-F7A9-48440DC0E295" containerWithKeyObject="1BDE22C0-D40D-E1F3-5DEA-9D5AAF2DC7D4" localFKIndex="6804EA48-DCF8-A36E-98D9-E7E1A5F4933C" name="Produc_usuario">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 04:12:40 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<referredTableLongName>usuario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>80A5AB27-5DB4-7AAE-9605-80DF3B13D51A</referredTableID>
+<keyObject>B8185A9E-5470-6B2C-AFE8-22CD31E3FCFB</keyObject>
+<referredKeyID>B8185A9E-5470-6B2C-AFE8-22CD31E3FCFB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cui</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

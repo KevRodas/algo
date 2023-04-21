@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9BF761B-F5E8-9FAA-3276-F270892F972C" name="InventariBod">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 03:05:31 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idInveventB" id="6E2F4CC7-E237-C135-0784-24663FE917BA">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 03:06:06 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaMovIn" id="6C9DF34F-D6F5-B4C4-221D-9C093DA0258A">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 03:10:44 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ingreso" id="E9AF4A24-1709-14F6-94F1-AA9C0914395B">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 03:10:44 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,6,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaMovEgre" id="BBC0C670-01ED-40BA-BA85-456E250121AC">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 03:11:54 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="egreso" id="6BC2A80A-D639-F8F1-A017-88D59CE77E9F">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 03:12:28 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,6,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="existencias" id="768E569F-7CD3-A858-E905-B15F63470061">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 03:13:16 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,6,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_cui" id="9B8BD50F-8A89-31FF-7997-9222F4D2E3E7">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 04:13:06 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36D867C8-F655-18CC-2598-9FF6DE0B5DF6" referredColumn="1DACD2B8-8A25-C7FD-ED76-2D93948B1C12"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8C5C63A-9270-DF6B-D359-31A36355718B" name="InventariBod_PK">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 03:06:06 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E2F4CC7-E237-C135-0784-24663FE917BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9D2C7DC-87E8-E94D-10A6-1AC335FB4D14" name="InventariBod__UN">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 04:18:16 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B8BD50F-8A89-31FF-7997-9222F4D2E3E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA995D31-EF33-A4AF-0375-0037FD4C1707" name="iBod_usuario">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 04:13:06 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B8BD50F-8A89-31FF-7997-9222F4D2E3E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

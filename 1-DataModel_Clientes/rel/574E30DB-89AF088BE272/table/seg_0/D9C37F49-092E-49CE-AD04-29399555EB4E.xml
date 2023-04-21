@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9C37F49-092E-49CE-AD04-29399555EB4E" name="grupaHabita">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 02:42:53 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idGrupoH" id="B1F43767-FC77-278B-C8D1-9F75757AB8F6">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 02:44:34 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripGrupH" id="539BB757-372F-A123-5245-B14943090529">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 02:45:52 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>35 CHAR</dataTypeSize>
+<ownDataTypeParameters>35 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="municipio_idMuni" id="15707283-E77F-1F6F-92D7-63B5DFAEB90D">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 03:40:32 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="776A37EB-DAC5-488F-772D-99842ECF259E" referredColumn="2D497B9B-F020-1205-958E-3CFA97FA7C14"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8266B3E4-D76E-0594-2519-A1C956C745F8" name="grupaHabita_PK">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 02:44:34 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1F43767-FC77-278B-C8D1-9F75757AB8F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACE9853F-4C41-2E3E-9F7B-7DEE6CC2E1CC" name="grupaHabita_municipio">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 03:40:32 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15707283-E77F-1F6F-92D7-63B5DFAEB90D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="179EBA1B-0F45-2F74-F0A3-41F149259440" name="bitacora">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 04:19:22 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<ordsAlias>table_36</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idBitacora" id="55D31EF2-07E6-76AB-172C-BAF98BA8D136">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 04:20:00 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaHora" id="7D0286FA-A016-B880-E471-48DCA8EE7195">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 04:20:26 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_cui" id="A21A9F77-B9F6-95CE-910F-7453C1B91CE7">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 04:20:46 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1FBEA56-5E34-4EE8-8491-FD2EBB6390F2" referredColumn="1DACD2B8-8A25-C7FD-ED76-2D93948B1C12"/>
+</associations>
+</Column>
+<Column name="factura_noFactura" id="29D63122-5CF0-3715-70CE-2B18BC3D4ABA">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 04:21:31 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11477F3A-3EB6-C4DD-025C-275CF9AA3A84" referredColumn="E49A490D-B420-1D71-1266-22C8DD84D214"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="603C800B-AFDA-B51B-D65C-4FBBA9013A43" name="bitacora_PK">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 04:20:00 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55D31EF2-07E6-76AB-172C-BAF98BA8D136"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9740D1CD-4205-ACC0-C5AC-5F4D464531B4" name="bitacora__UN">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 04:22:10 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29D63122-5CF0-3715-70CE-2B18BC3D4ABA"/>
+<colUsage columnID="A21A9F77-B9F6-95CE-910F-7453C1B91CE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8FBADD1-F72C-43B6-C9BB-D71D84F058FA" name="bitacora_usuario">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 04:20:46 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A21A9F77-B9F6-95CE-910F-7453C1B91CE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5CD34CD-833C-33F4-BB34-DF28D17AC117" name="bitacora_factura">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 04:21:31 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29D63122-5CF0-3715-70CE-2B18BC3D4ABA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

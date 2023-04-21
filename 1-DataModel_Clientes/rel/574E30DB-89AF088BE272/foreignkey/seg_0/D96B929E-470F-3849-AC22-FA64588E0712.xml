@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D96B929E-470F-3849-AC22-FA64588E0712" containerWithKeyObject="99B273C8-AC5B-92A0-0B77-67BF2EA6EDED" localFKIndex="0B2A7951-E5F9-A223-79D6-B57F1A63EE94" name="inventarioRuta_camion2">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 03:56:58 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<referredTableLongName>camion2</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2F4206B6-8023-FF9A-6E88-6AD0DEFEE7F3</referredTableID>
+<keyObject>A0973E2E-4660-896C-D89C-718EB091DC3F</keyObject>
+<referredKeyID>A0973E2E-4660-896C-D89C-718EB091DC3F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NoMotor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

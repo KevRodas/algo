@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="1-DataModel_Clientes" id="06210BC6-AB22-3CDC-EFA6-40C54C06D173" version="3.5">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-07 14:05:28 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>06210BC6-AB22-3CDC-EFA6-40C54C06D173</designId>
+</OSDM_Design>

@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D96432AB-E0EB-6C54-AA0D-D33E4B8A7F7B" name="departamento">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 02:37:51 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idDep" id="4E103980-D4AD-D952-94A5-827080318604">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 02:38:32 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreDep" id="E9B633EE-82BB-CBA2-97C1-09302174DE5A">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 02:39:14 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>35 CHAR</dataTypeSize>
+<ownDataTypeParameters>35 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95F31D00-E36D-8FBE-281E-93027CFC9901" name="departamento_PK">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 02:38:32 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E103980-D4AD-D952-94A5-827080318604"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

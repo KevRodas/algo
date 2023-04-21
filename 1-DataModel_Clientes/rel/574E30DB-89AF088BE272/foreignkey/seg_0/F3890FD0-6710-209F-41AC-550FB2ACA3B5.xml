@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F3890FD0-6710-209F-41AC-550FB2ACA3B5" containerWithKeyObject="38C930EC-970A-6F93-5A31-3EBFE10B1D3D" localFKIndex="A72C75BA-1B1B-595E-CF82-6FC5BC4D0C12" name="factura_formaPago">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 03:32:33 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<referredTableLongName>formaPago</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4CB3CE3A-A96C-A8F9-BB87-24902D3F2224</referredTableID>
+<keyObject>44900640-F9A5-3BF6-BEE2-99644FCA5525</keyObject>
+<referredKeyID>44900640-F9A5-3BF6-BEE2-99644FCA5525</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idFormaP</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

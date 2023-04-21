@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D4226AF5-0F21-7E18-6C00-25C74CEEFB00" containerWithKeyObject="553BAADF-9413-F560-0E90-F333B06BD3F8" localFKIndex="1F89CC16-36ED-BE5E-AE9E-405A714A2C29" name="cliente_grupaHabita">
+<createdBy>Asus Zenbook</createdBy>
+<createdTime>2023-02-17 03:41:45 UTC</createdTime>
+<ownerDesignName>1-DataModel_Clientes</ownerDesignName>
+<referredTableLongName>grupaHabita</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D9C37F49-092E-49CE-AD04-29399555EB4E</referredTableID>
+<keyObject>8266B3E4-D76E-0594-2519-A1C956C745F8</keyObject>
+<referredKeyID>8266B3E4-D76E-0594-2519-A1C956C745F8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idGrupoH</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
